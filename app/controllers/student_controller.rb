@@ -5,11 +5,11 @@ class StudentController < ApplicationController
   end
   
   def show 
-    @@student = Student.find(params[:id])
+    @student = Student.find(params[:id])
   end 
   
   def new 
-    @studnet = Student.new 
+    @student = Student.new 
   end 
   
   def create 
