@@ -1,4 +1,4 @@
-class School_Class < ActiveRecord::Base
+class SchoolClass < ActiveRecord::Base
 
 
 
