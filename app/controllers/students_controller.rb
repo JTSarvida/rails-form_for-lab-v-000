@@ -29,4 +29,7 @@ class StudentsController < ApplicationController
     @student.update(params.require(:student).permit(:first_name, :last_name))
   end 
   
+  private 
+  
+  def 
 end
