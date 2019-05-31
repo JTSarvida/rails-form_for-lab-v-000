@@ -31,5 +31,7 @@ class StudentsController < ApplicationController
   
   private 
   
-  def 
+  def student_params(*args)
+    params.require(:student).permit(*args)
+  end
 end
