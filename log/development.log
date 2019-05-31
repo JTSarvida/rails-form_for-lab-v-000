@@ -235,3 +235,13 @@ Processing by StudentsController#edit as HTML
 Completed 200 OK in 21ms (Views: 18.5ms | ActiveRecord: 0.2ms)
 
 
+Started PATCH "/students/1" for 173.73.86.51 at 2019-05-31 18:23:25 +0000
+Processing by StudentsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3WWrv6Qt3j6MvMoMrzUngSmvSEakiJQG21/HarsMCTIRiDbjNAx66SL1TYQGVJEwLZUqrWLMOXKqWTw5m/J3SA==", "student"=>{"first_name"=>"Josh", "last_name"=>"Hudgens"}, "commit"=>"Update Student", "id"=>"1"}
+  [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+No template found for StudentsController#update, rendering head :no_content
+Completed 204 No Content in 14ms (ActiveRecord: 0.3ms)
+
+
