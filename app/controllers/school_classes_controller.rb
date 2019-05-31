@@ -15,6 +15,9 @@ class SchoolClassesController < ApplicationControler
   def create 
     @school_class = School_Class.new 
     @school_class.title = params[:title]
+    @school_class.room_number = params[:room_number]
+    @school_class.save
+    redirect_to school_class_path(@school_class)
   end 
   
   def edit 
