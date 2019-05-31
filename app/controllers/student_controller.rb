@@ -4,6 +4,10 @@ class StudentController < ApplicationController
     @students = Student.all 
   end
   
+  def show 
+    @@student = Studnent.find(params[:id])
+  end 
+  
   def new 
     @studnet = Student.new 
   end 
