@@ -84,3 +84,16 @@ Processing by SchoolClassesController#new as HTML
 Completed 200 OK in 21ms (Views: 18.9ms | ActiveRecord: 0.0ms)
 
 
+Started POST "/school_classes" for 173.73.86.51 at 2019-05-31 17:58:43 +0000
+Processing by SchoolClassesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"73Q1ufP8RN+fQyxXfrtvgzVUs45hp8fK6IUhHogzdr8jmajlY93gCDEKq9/X2tkyMW7RZafjar6Zg9pNqM0IxQ==", "school_class"=>{"title"=>"blah", "room_number"=>"blah"}, "commit"=>"Create School class"}
+  [1m[35m (0.7ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "school_classes" DEFAULT VALUES[0m
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://67.205.152.27:39621/school_classes/1
+Completed 302 Found in 8ms (ActiveRecord: 4.6ms)
+
+
+Started GET "/school_classes/1" for 173.73.86.51 at 2019-05-31 17:58:43 +0000
+Processing by SchoolClassesController#show as HTML
+  Parameters: {"id"=>"1"}
