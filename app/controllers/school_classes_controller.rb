@@ -9,9 +9,12 @@ class SchoolClassesController < ApplicationControler
   end 
   
   def new 
+    @school_class = School_Class.new 
   end 
   
   def create 
+    @school_class = School_Class.new 
+    @school_class.title = params[:title]
   end 
   
   def edit 
