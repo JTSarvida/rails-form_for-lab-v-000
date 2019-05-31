@@ -77,3 +77,10 @@ Processing by SchoolClassesController#new as HTML
 Completed 200 OK in 823ms (Views: 816.5ms | ActiveRecord: 0.8ms)
 
 
+Started GET "/school_classes/new" for 173.73.86.51 at 2019-05-31 17:58:37 +0000
+Processing by SchoolClassesController#new as HTML
+  Rendering school_classes/new.html.erb within layouts/application
+  Rendered school_classes/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 21ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
