@@ -1,1 +1,1 @@
-class School_Class < ApplicationController
+class School_Class < ActiveRecord::Base
