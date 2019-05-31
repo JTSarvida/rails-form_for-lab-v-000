@@ -1,9 +1,11 @@
 class StudentController < ApplicationController
   
   def index
+    @students = Student.all 
   end
   
   def new 
+    @studnet = Student.new 
   end 
   
   def create 
