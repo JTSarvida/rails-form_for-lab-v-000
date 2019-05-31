@@ -1,4 +1,5 @@
-<h1>Students</h1>
-<% @students.each do |student| %>
-  <%= student.to_s <br>%> 
+<h1>School Classes</h1>
+<% @school_classes.each do |school_class| %>
+  <%= school_class.title <br>%>
+  <%= school_class.room_number %>
 <% end %>
