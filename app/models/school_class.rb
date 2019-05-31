@@ -1,1 +1,1 @@
-class School_
+class School_Class < ApplicationController
